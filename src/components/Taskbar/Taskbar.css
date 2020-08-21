@@ -1,0 +1,46 @@
+.taskbar-container{
+   background-color: #C0C0C0;
+   border-top: 2px solid #eeeeee;
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   height: 30px;
+   user-select: none;
+}
+
+.taskbar-inner-container{
+   margin-top: 2px;
+}
+
+.start-button{
+   display: flex;
+   align-items: center;
+   margin: 0 5px;
+   padding: 2px;
+   width: 58px;
+   border: 1px solid grey;
+   outline: none;
+   box-shadow: 1px 1px grey;
+   background-color: #C0C0C0;
+   box-shadow: 2px 2px black;
+   transform: translate(-1px, -1px);
+}
+
+.start-button:active{
+   border: none;
+   box-shadow: 0px 0px;
+   transform: translate(1px, 1px);
+}
+
+
+.start-button>img{
+   width: 20px;
+   height: 20px;
+}
+.start-button>div{
+   font-size: small;
+}
+
+.start-word{
+   font-weight: 800;
+}

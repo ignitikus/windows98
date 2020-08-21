@@ -1,0 +1,47 @@
+.main-container{
+   background-color: #048080;
+   height: 100%;
+}
+
+.icons-container{
+   display: flex;
+   flex-direction: column;
+}
+
+.desktop-icons{
+   width: 100px;
+   margin: 5px 5px 5px 5px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   user-select: none;
+}
+
+.icons{
+   width: 48px;
+   margin-top: 10px;
+}
+
+.icon-overlay{
+   width: 48px;
+   height: 48px;
+   position: relative;
+   top: -48px;
+   margin-bottom: -48px;
+}
+
+.icon-overlay:active{
+   width: 48px;
+   height: 48px;
+   position: relative;
+   top: -48px;
+   margin-bottom: -48px;
+   background-color: rgba(73, 73, 245, 0.6);
+}
+
+.icon-title{
+   color: #eeeeee;
+   text-align: center;
+   font-size: 12px;
+   margin-top: 10px;
+}
